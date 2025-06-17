@@ -34,7 +34,7 @@ function Header({countryData, setRegion}){
                 
                 <div className="container flex items-center justify-between h-16 mx-auto md:justify-center md:space-x-8">
                     <Link to='/'>
-                    <GiWorld  className="justify-center flex items-center" size={50} />
+                    <GiWorld  className="justify-center flex items-center text-purple-500" size={50} />
                     </Link>
                     
                   <ul className="items-stretch hidden space-x-3 md:flex">
