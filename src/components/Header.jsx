@@ -41,7 +41,7 @@ function Header({countryData, setRegion}){
                     {regDataArr.map((item, index) => (
                         <li key={index} className="flex">
                         <Link to={`/region/${item}`}>
-                            <p className="flex text-sm lg:text-lg items-center px-2 -mb-1 border-b-2 dark:border-gray-500">
+                            <p className="flex text-sm lg:text-lg items-center px-2 -mb-1 hover:scale-110">
                             {item}
                             </p>
                         </Link>
