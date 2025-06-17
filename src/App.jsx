@@ -25,7 +25,7 @@ useEffect(()=>{
      <Route path="/" element={<Main countryData={countryData} />} />
       <Route path="/region/:regionName" element={<Main countryData={countryData} />} />
       <Route path="/country/:alpha3Code" element={<Details countryData={countryData} />} />
-      <Route path="*" element={<Error />} />  {/* Bu sonda olmalıdı */}
+      <Route path="/*" element={<Error />} />  {/* Bu sonda olmalıdı */}
     </Routes>
     <Footer/>
     </>
