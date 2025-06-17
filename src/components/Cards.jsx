@@ -5,7 +5,7 @@ function Cards({country}){
     return(
         <>
         <Link to={`/country/${alpha3Code}`}>
-        <div className="max-w-xs rounded-md shadow-md dark:bg-gray-800 dark:text-white border-1 dark:border-gray-400">
+        <div className="max-w-xs rounded-md shadow-md dark:bg-gray-800 dark:text-white border-1 border-gray-200 dark:border-gray-400">
             <img src={flag} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
             <div className="flex flex-col justify-between p-6 space-y-8 dark:text-white">
                 <div className="space-y-2 dark:text-white">
