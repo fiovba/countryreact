@@ -34,7 +34,7 @@ function Header({countryData, setRegion}){
                 
                 <div className="container flex items-center justify-between h-16 mx-auto md:justify-center md:space-x-8">
                     <Link to='/'>
-                    <GiWorld  className="justify-center flex items-center text-purple-500" size={50} />
+                    <GiWorld  className="justify-center flex items-center text-purple-500 transition-all duration-300 hover:rotate-45 hover:scale-110 " size={50}  />
                     </Link>
                     
                   <ul className="items-stretch hidden space-x-3 md:flex">
@@ -52,8 +52,8 @@ function Header({countryData, setRegion}){
                     <div >
                             {
                                 handleMode ?
-                                <AiOutlineSun onClick={handleTheme} className="text-[40px] transition-all duration-300 hover:rotate-45 hover:scale-110  "  /> :
-                                <AiOutlineMoon onClick={handleTheme}  className="text-[40px]  transition-all duration-300 hover:rotate-45 hover:scale-110"   />
+                                <AiOutlineSun onClick={handleTheme} className="text-[40px] text-purple-500 transition-all duration-300 hover:rotate-45 hover:scale-110  "  /> :
+                                <AiOutlineMoon onClick={handleTheme}  className="text-[40px] text-purple-500  transition-all duration-300 hover:rotate-45 hover:scale-110"   />
                             }
                     </div>
                     
